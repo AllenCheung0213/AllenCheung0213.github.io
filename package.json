@@ -1,5 +1,5 @@
 {
-  "homepage": "http://AllenCheung0213.github.io/AllenCheung0213.github.io",
+  "homepage": "https://AllenCheung0213.github.io/AllenCheung0213.github.io",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "name": "mywebsite",
