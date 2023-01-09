@@ -1,9 +1,6 @@
 {
-  "homepage": "https://AllenCheung0213.github.io/AllenCheung0213.github.io",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "name": "mywebsite",
-  "private": false,
+  "name": "vite-project",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -12,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "vite": "^4.0.0"
   },
   "dependencies": {
