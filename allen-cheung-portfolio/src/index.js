@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Smooth scrolling for navigation links
@@ -35,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
+  <BrowserRouter basename="/allen-cheung-portfolio">
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
 );
