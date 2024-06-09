@@ -13,7 +13,7 @@ body {
   overflow: hidden;
 }
 
-header {
+.header {
   background: linear-gradient(45deg, #333, #555);
   color: #fff;
   padding: 2em 0;
@@ -22,53 +22,53 @@ header {
   overflow: hidden;
 }
 
-header h1 {
+.header h1 {
   margin: 0;
   font-size: 3em;
 }
 
-header p {
+.header p {
   margin: 0.5em 0;
   font-size: 1.2em;
 }
 
-header a {
+.header a {
   color: #ff6347;
   text-decoration: none;
 }
 
-header a:hover {
+.header a:hover {
   text-decoration: underline;
 }
 
-nav {
+.nav {
   background: #444;
   color: #fff;
   padding: 1em 0;
   text-align: center;
 }
 
-nav ul {
+.nav ul {
   list-style: none;
   padding: 0;
 }
 
-nav ul li {
+.nav ul li {
   display: inline;
   margin: 0 20px;
 }
 
-nav ul li a {
+.nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.2em;
 }
 
-nav ul li a:hover {
+.nav ul li a:hover {
   text-decoration: underline;
 }
 
-section {
+.section {
   padding: 2em 0;
   border-bottom: 1px solid #ccc;
   background: #fff;
@@ -79,7 +79,7 @@ section {
   transition: opacity 1s ease-in-out;
 }
 
-section.visible {
+.section.visible {
   opacity: 1;
 }
 
@@ -102,7 +102,7 @@ ul li {
   margin: 0.5em 0;
 }
 
-footer {
+.footer {
   background: #333;
   color: #fff;
   text-align: center;
@@ -111,6 +111,6 @@ footer {
   overflow: hidden;
 }
 
-footer p {
+.footer p {
   margin: 0;
 }
