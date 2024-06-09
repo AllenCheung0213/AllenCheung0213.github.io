@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Allen Cheung</h1>
-        <p><a href="mailto:alcheung0213@gmail.com">alcheung0213@gmail.com</a> | <a href="https://www.linkedin.com/in/alcheung0213">LinkedIn</a> | <a href="https://github.com/AllenCheung0213">GitHub</a></p>
+        <div class="container">
+            <h1>Allen Cheung</h1>
+            <p><a href="mailto:alcheung0213@gmail.com">alcheung0213@gmail.com</a> | <a href="https://www.linkedin.com/in/alcheung0213">LinkedIn</a> | <a href="https://github.com/AllenCheung0213">GitHub</a></p>
+        </div>
     </header>
     <nav>
         <ul>
@@ -20,97 +22,109 @@
             <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Worcester Polytechnic Institute (WPI)</strong>: Worcester, MA</p>
-        <p>BS in Computer Science, MS in Data Science (Expected Graduation: May 2025)</p>
-        <p>Honors: Dean’s List, Lockheed Martin STEM Scholarship</p>
-        <p>Relevant Courses: Algorithms, Object Oriented Programming, Software Engineering, Operating Systems, Data Mining, Databases, Big Data Analytics, Deep Learning, NLP, Machine Learning</p>
-    </section>
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, Java, SQL, JavaScript</li>
-            <li>Data Science: Supervised and Unsupervised Learning, Neural Networks, Computer Vision, Natural Language Processing</li>
-            <li>Software: PowerBI, Google Cloud Platform, AWS, Salesforce, Jira, Smartsheet, PostgreSQL, Nginx, Tableau, Git</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Data Analysis Lead: SoilX | WPI (Oct. 2022 – Present)</h3>
-            <ul>
-                <li>Developed a machine learning model to analyze GPR data for soil moisture estimation, achieving 6% error, improving state of the art benchmarks</li>
-                <li>Led a team of five to research soil moisture using drones, radars, and data analysis to develop a system mapping root-zone moisture levels in large farms</li>
-                <li>Co-authored award-winning publication in IEEE ORSS 2023 “Data-Driven Soil Water Content Estimation at Multiple Depths Using SFCW GPR”</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Sales & Marketing Data Analyst Intern | Charles River Laboratories (May 2023 – Jan 2024)</h3>
-            <ul>
-                <li>Created a semi-autonomous python script to find what 100+ companies are working on resulting in a 30% increase in CRM interactions and 50% reduction in processing time</li>
-                <li>Began the integration of a comprehensive system using CNNs to determine who and when customers should be contacted resulting in 35% increase in sales</li>
-                <li>Enhanced data integrity by fixing inconsistencies across 4000+ rows, boosting data validation and accuracy by 15%, optimizing processes and reliable decision-making</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Research Student: BrainEx | WPI (Nov. 2021 – Nov. 2022)</h3>
-            <ul>
-                <li>Performed statistical analyses on 100+ datasets, utilizing clustering and normalization techniques to extract pivotal insights about neurological patterns</li>
-                <li>Integrated three data visualizations into a GUI, improving the analysis and pattern discovery in time series neurological data</li>
-            </ul>
-        </div>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Advanced Neural Networks for MEDMNIST Dataset (Mar. 2024 – May 2024)</h3>
-            <ul>
-                <li>Engineered a multi-task model across four datasets achieving an average accuracy of 95%, surpassing set benchmarks by 2-10%</li>
-                <li>Developed an advanced transfer learning model that enhanced accuracy by 20% and surpassed established benchmarks by approximately 5%</li>
-                <li>Applied fine-tuning techniques and domain-specific features, leading to a 5% reduction in error rates compared to baseline models</li>
-            </ul>
-        </div>
-        <div class="project-item">
-            <h3>Social Media Sentiment Analysis (Jun. 2023 – Jul. 2023)</h3>
-            <ul>
-                <li>Collected and analyzed 2 million Twitter and Reddit posts using Spark, searching 4.7 million combinations for the best preprocessing technique</li>
-                <li>Developed a high-precision sentiment analysis model achieving a precision rate of 89.95%, surpassing industry baselines by approximately 10%</li>
-                <li>Implemented real-time sentiment analysis on a web platform, allowing users to input text and receive the percentage of positive or negative sentiment</li>
-            </ul>
-        </div>
-        <div class="project-item">
-            <h3>AI-Powered Chatbot for Customer Support (May 2023 – Jun. 2023)</h3>
-            <ul>
-                <li>Launched a customer support chatbot by analyzing 50,000+ messages, leveraging a Transformer model to achieve 86% accuracy</li>
-                <li>Engineered an efficient NLP pipeline, deploying the solution via Flask to handle real-time customer service inquiries</li>
-            </ul>
-        </div>
-        <div class="project-item">
-            <h3>Brigham and Women’s Hospital Kiosk Application (Mar. 2023 – May 2023)</h3>
-            <ul>
-                <li>Spearheaded the Agile development of a software application using Java design patterns and created an AWS backed database utilizing AWS Lambdas</li>
-                <li>Coordinated with a 10-person team to deliver a custom application with pathfinding, a map editor, and multiple integrated service request modules</li>
-                <li>Fine-tuned a ChatGPT integrated chatbot to inform users how to use the different functionalities of the app (hosted through AWS using NginX)</li>
-            </ul>
-        </div>
-        <div class="project-item">
-            <h3>AI-Powered Resume Screening Web App | WPI (Nov. 2022 – Jan. 2023)</h3>
-            <ul>
-                <li>Developed a Python and NLP-based application that screens resumes with 82% accuracy, streamlining the hiring process</li>
-                <li>Enhanced the NLP pipeline to increase detail extraction precision by 13%, utilizing multi-label classification techniques</li>
-            </ul>
-        </div>
-        <div class="project-item">
-            <h3>Machine Learning with Cancer Dataset | WPI (Sep. 2022 – Nov. 2022)</h3>
-            <ul>
-                <li>Implemented five machine learning algorithms for breast cancer stage classification, enhancing predictive accuracy by 12%</li>
-                <li>Executed four supervised learning models, achieving a 5% improvement in classification precision over baseline models</li>
-            </ul>
-        </div>
-    </section>
+    <main>
+        <section id="education" class="hidden">
+            <div class="container">
+                <h2>Education</h2>
+                <p><strong>Worcester Polytechnic Institute (WPI)</strong>: Worcester, MA</p>
+                <p>BS in Computer Science, MS in Data Science (Expected Graduation: May 2025)</p>
+                <p>Honors: Dean’s List, Lockheed Martin STEM Scholarship</p>
+                <p>Relevant Courses: Algorithms, Object Oriented Programming, Software Engineering, Operating Systems, Data Mining, Databases, Big Data Analytics, Deep Learning, NLP, Machine Learning</p>
+            </div>
+        </section>
+        <section id="skills" class="hidden">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Programming Languages: Python, Java, SQL, JavaScript</li>
+                    <li>Data Science: Supervised and Unsupervised Learning, Neural Networks, Computer Vision, Natural Language Processing</li>
+                    <li>Software: PowerBI, Google Cloud Platform, AWS, Salesforce, Jira, Smartsheet, PostgreSQL, Nginx, Tableau, Git</li>
+                </ul>
+            </div>
+        </section>
+        <section id="experience" class="hidden">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Data Analysis Lead: SoilX | WPI (Oct. 2022 – Present)</h3>
+                    <ul>
+                        <li>Developed a machine learning model to analyze GPR data for soil moisture estimation, achieving 6% error, improving state of the art benchmarks</li>
+                        <li>Led a team of five to research soil moisture using drones, radars, and data analysis to develop a system mapping root-zone moisture levels in large farms</li>
+                        <li>Co-authored award-winning publication in IEEE ORSS 2023 “Data-Driven Soil Water Content Estimation at Multiple Depths Using SFCW GPR”</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Sales & Marketing Data Analyst Intern | Charles River Laboratories (May 2023 – Jan 2024)</h3>
+                    <ul>
+                        <li>Created a semi-autonomous python script to find what 100+ companies are working on resulting in a 30% increase in CRM interactions and 50% reduction in processing time</li>
+                        <li>Began the integration of a comprehensive system using CNNs to determine who and when customers should be contacted resulting in 35% increase in sales</li>
+                        <li>Enhanced data integrity by fixing inconsistencies across 4000+ rows, boosting data validation and accuracy by 15%, optimizing processes and reliable decision-making</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Research Student: BrainEx | WPI (Nov. 2021 – Nov. 2022)</h3>
+                    <ul>
+                        <li>Performed statistical analyses on 100+ datasets, utilizing clustering and normalization techniques to extract pivotal insights about neurological patterns</li>
+                        <li>Integrated three data visualizations into a GUI, improving the analysis and pattern discovery in time series neurological data</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="hidden">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>Advanced Neural Networks for MEDMNIST Dataset (Mar. 2024 – May 2024)</h3>
+                    <ul>
+                        <li>Engineered a multi-task model across four datasets achieving an average accuracy of 95%, surpassing set benchmarks by 2-10%</li>
+                        <li>Developed an advanced transfer learning model that enhanced accuracy by 20% and surpassed established benchmarks by approximately 5%</li>
+                        <li>Applied fine-tuning techniques and domain-specific features, leading to a 5% reduction in error rates compared to baseline models</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h3>Social Media Sentiment Analysis (Jun. 2023 – Jul. 2023)</h3>
+                    <ul>
+                        <li>Collected and analyzed 2 million Twitter and Reddit posts using Spark, searching 4.7 million combinations for the best preprocessing technique</li>
+                        <li>Developed a high-precision sentiment analysis model achieving a precision rate of 89.95%, surpassing industry baselines by approximately 10%</li>
+                        <li>Implemented real-time sentiment analysis on a web platform, allowing users to input text and receive the percentage of positive or negative sentiment</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h3>AI-Powered Chatbot for Customer Support (May 2023 – Jun. 2023)</h3>
+                    <ul>
+                        <li>Launched a customer support chatbot by analyzing 50,000+ messages, leveraging a Transformer model to achieve 86% accuracy</li>
+                        <li>Engineered an efficient NLP pipeline, deploying the solution via Flask to handle real-time customer service inquiries</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h3>Brigham and Women’s Hospital Kiosk Application (Mar. 2023 – May 2023)</h3>
+                    <ul>
+                        <li>Spearheaded the Agile development of a software application using Java design patterns and created an AWS backed database utilizing AWS Lambdas</li>
+                        <li>Coordinated with a 10-person team to deliver a custom application with pathfinding, a map editor, and multiple integrated service request modules</li>
+                        <li>Fine-tuned a ChatGPT integrated chatbot to inform users how to use the different functionalities of the app (hosted through AWS using NginX)</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h3>AI-Powered Resume Screening Web App | WPI (Nov. 2022 – Jan. 2023)</h3>
+                    <ul>
+                        <li>Developed a Python and NLP-based application that screens resumes with 82% accuracy, streamlining the hiring process</li>
+                        <li>Enhanced the NLP pipeline to increase detail extraction precision by 13%, utilizing multi-label classification techniques</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h3>Machine Learning with Cancer Dataset | WPI (Sep. 2022 – Nov. 2022)</h3>
+                    <ul>
+                        <li>Implemented five machine learning algorithms for breast cancer stage classification, enhancing predictive accuracy by 12%</li>
+                        <li>Executed four supervised learning models, achieving a 5% improvement in classification precision over baseline models</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Allen Cheung. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Allen Cheung. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
