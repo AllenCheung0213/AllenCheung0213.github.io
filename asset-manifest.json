@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/allen-cheung-portfolio/static/css/main.409c9a9f.css",
-    "main.js": "/allen-cheung-portfolio/static/js/main.a6d9d709.js",
-    "index.html": "/allen-cheung-portfolio/index.html",
-    "main.409c9a9f.css.map": "/allen-cheung-portfolio/static/css/main.409c9a9f.css.map",
-    "main.a6d9d709.js.map": "/allen-cheung-portfolio/static/js/main.a6d9d709.js.map"
+    "main.css": "/static/css/main.409c9a9f.css",
+    "main.js": "/static/js/main.a6d9d709.js",
+    "index.html": "/index.html",
+    "main.409c9a9f.css.map": "/static/css/main.409c9a9f.css.map",
+    "main.a6d9d709.js.map": "/static/js/main.a6d9d709.js.map"
   },
   "entrypoints": [
     "static/css/main.409c9a9f.css",
