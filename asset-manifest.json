@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.409c9a9f.css",
-    "main.js": "/static/js/main.a6d9d709.js",
-    "index.html": "/index.html",
-    "main.409c9a9f.css.map": "/static/css/main.409c9a9f.css.map",
-    "main.a6d9d709.js.map": "/static/js/main.a6d9d709.js.map"
+    "main.css": "/allen-cheung-portfolio/static/css/main.e10e67dd.chunk.css",
+    "main.js": "/allen-cheung-portfolio/static/js/main.9b8f0686.chunk.js",
+    "main.js.map": "/allen-cheung-portfolio/static/js/main.9b8f0686.chunk.js.map",
+    "runtime-main.js": "/allen-cheung-portfolio/static/js/runtime-main.5da5c59a.js",
+    "runtime-main.js.map": "/allen-cheung-portfolio/static/js/runtime-main.5da5c59a.js.map",
+    "static/js/2.b97ca274.chunk.js": "/allen-cheung-portfolio/static/js/2.b97ca274.chunk.js",
+    "static/js/2.b97ca274.chunk.js.map": "/allen-cheung-portfolio/static/js/2.b97ca274.chunk.js.map",
+    "index.html": "/allen-cheung-portfolio/index.html",
+    "static/css/main.e10e67dd.chunk.css.map": "/allen-cheung-portfolio/static/css/main.e10e67dd.chunk.css.map",
+    "static/js/2.b97ca274.chunk.js.LICENSE.txt": "/allen-cheung-portfolio/static/js/2.b97ca274.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.409c9a9f.css",
-    "static/js/main.a6d9d709.js"
+    "static/js/runtime-main.5da5c59a.js",
+    "static/js/2.b97ca274.chunk.js",
+    "static/css/main.e10e67dd.chunk.css",
+    "static/js/main.9b8f0686.chunk.js"
   ]
 }
